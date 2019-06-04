@@ -65,3 +65,26 @@ f- Move forward without drawing.
 - Rotate left 90 degrees
 
 
+One of the most important things in LSystems are Branches:
+In LSystems we create the branches with square brackets([ and ]). Any turtle commands inside the square brackets are executed differently then the actual string
+commands. 
+
+For example, the commands F [F+] F [F+] [-F]  state that:
+
+1: Go forward
+
+2: Branch off a new turtle and have it turn right and then go forward.
+
+3: Go forward
+
+4: Branch off a new turtle and have it turn the right and the go forward.
+
+5: Branch off a new turtle and have it turn left and then go forward.
+
+This creates this figure:
+
+ 
+ 
+
+
+
