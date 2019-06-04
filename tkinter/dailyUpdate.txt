@@ -1,0 +1,35 @@
+Date: 06/04/2019
+Sparsh Rawlani
+
+Intro to L-systems
+I referred to a website to learn the introdunction to L-systems. The URL of the website is https://morphocode.com/intro-to-l-systems/
+
+I learned that an LSystem is a parallel string rewriting system. All the LSystems work on a basic set of rules for specifying the symbols in a string. The symbols are 
+rewritten as strings. 
+For example:
+seed: A
+The rules are:
+Rule 1: A=AB
+Rule 2: B=BA
+
+Next, the LSystems by default start with the seed=A and iteratively rewrites that string using the production rules. n i usually defined as the derivation length of the
+string, which is further equal to the number of iterations. 
+
+n=0:A
+n=1:AB(A becomes AB according to Rule #1)
+n=2: ABBA(A becomes AB according to RUle #1, while B becomes BA according to Rulw #2. In result we get ABBA)
+n=3: ABBABAAB
+n=4: ABBABAABBAABABBA
+and so on...
+
+
+So basically each string represents a word. All words from the language of the System. 
+The next is learning the different types of LSystems: deterministic, stochastic, context-free, context-sesitive, parametric, timed-depending on the rules and the way they 
+are applied by the LSystem.
+
+The applications of the LSystems are: 
+1: herbaceous plants
+2: neural networks
+3: the procedural design of cities
+4: generative art
+5: generative music
