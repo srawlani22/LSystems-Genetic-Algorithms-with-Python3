@@ -33,3 +33,35 @@ The applications of the LSystems are:
 3: the procedural design of cities
 4: generative art
 5: generative music
+
+As we saw that the central system of LSystems is basically rewriting of strings.
+
+The general form of LSystem rule is  [left_context<] symbol [>right_context] [:condition]=replacement [:probability]
+
+Where:
+left_context- An optional string that must precede the symbol for this rule to match.
+
+symbol- The symbol to replcae. Like A is replaced by AB and B is replaced by B BA.
+
+right_context- An optional string that must follow the symbol for this rule to match
+
+condition- An optional expression that must be true for this rule to match.
+
+replacement- The string that will replace the symbol 
+
+probability- The optional chance(between 0 and 1) that this rule will be executed. This wouldn't exactly gonna be 0 or 1, is usually a decimal.
+
+
+TURTLE Commands:
+It is completely possible to manipulate the strings system with the Graphics routine that interprets the strings as commands for drawing "turtke with position (XYZ)" and geading(angle). 
+
+Some examples are:
+F- Move forward a step, drawing a line connecting the previous position to the new position.
+
+f- Move forward without drawing.
+
++ Rotate right 90 degrees
+
+- Rotate left 90 degrees
+
+
