@@ -3,6 +3,7 @@ import turtle
 canvas = turtle.Screen()
 draw = turtle.Turtle()
 draw.speed(1)
+draw.left(90)
 
 instructions = "FFF+F+FF-F+F+FF"
 
