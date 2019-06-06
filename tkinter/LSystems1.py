@@ -22,5 +22,4 @@ for task in instructions:
         draw.left(90)
 
 input("")
-    
 
