@@ -10,8 +10,8 @@ draw = turtle.Turtle()
 # starts drawing the file
 
 
-# draw.pensize(2)
-# draw.speed(3)
+draw.pensize(2)
+draw.speed(3)
 
 screen = turtle.Screen()
 
@@ -27,10 +27,10 @@ while True:
             break
 draw.end_fill()
 
-
+time.sleep(3)
 draw.reset()
 
-time.sleep(2)
+
 draw.pensize(2)
 draw.speed(0)
 
@@ -51,6 +51,28 @@ while x < 400:
     draw.rt(90.911)
 
     x = x+1
+
+
+time.sleep(3)
+draw.reset()
+
+draw.speed(0)
+
+for i in range(180):
+    draw.forward(100)
+    draw.right(30)
+    draw.forward(20)
+    draw.left(60)
+    draw.forward(50)
+    draw.right(30)
+
+    draw.penup()
+    draw.setposition(0,0)
+    draw.pendown()
+
+    draw.right(2)
+
+
 
 
 
