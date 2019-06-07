@@ -1,4 +1,5 @@
 import turtle
+import time
 from random import randint
 # So python has a turtle library that helps us in using the defined methods of the library that further help us in drawing L.
 
@@ -9,8 +10,8 @@ draw = turtle.Turtle()
 # starts drawing the file
 
 
-draw.pensize(4)
-draw.speed(3)
+# draw.pensize(2)
+# draw.speed(3)
 
 screen = turtle.Screen()
 
@@ -29,8 +30,11 @@ draw.end_fill()
 
 draw.reset()
 
+time.sleep(2)
 draw.pensize(2)
 draw.speed(0)
+
+
 
 # design 2- draws a multicolor spiral design 
 x = 1
@@ -47,6 +51,8 @@ while x < 400:
     draw.rt(90.911)
 
     x = x+1
+
+
 
 
 input("")
