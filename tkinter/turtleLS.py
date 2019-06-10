@@ -56,8 +56,11 @@ while x < 400:
 time.sleep(3)
 draw.reset()
 
+
+#design 3- draws a big circle with a dark centre
 draw.speed(0)
 
+draw.color('red','blue')
 for i in range(180):
     draw.forward(100)
     draw.right(30)
@@ -71,10 +74,5 @@ for i in range(180):
     draw.pendown()
 
     draw.right(2)
-
-
-
-
-
 
 input("")

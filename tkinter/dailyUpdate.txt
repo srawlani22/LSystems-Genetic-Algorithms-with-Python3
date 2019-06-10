@@ -81,9 +81,10 @@ For example, the commands F [F+] F [F+] [-F]  state that:
 
 5: Branch off a new turtle and have it turn left and then go forward.
 
-This creates this figure:
+After that, I used python3 to create some fancy figures that can be seen after running the code. The file name is saved as turtle_LS.py  
+I have also pushed everything up to github and it can be found easily. Every step is closely doumented in this documentation and it is strongly
+recommended for anyone to go through the documenration in order to understand the concept of LSystems.
 
- 
  
 
 
