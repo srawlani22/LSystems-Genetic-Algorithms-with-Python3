@@ -9,9 +9,9 @@ canvas = turtle.Screen()
 draw = turtle.Turtle()
 # starts drawing the file
 
-
+draw.getscreen().bgcolor("black")
 draw.pensize(2)
-draw.speed(3)
+draw.speed(5)
 
 screen = turtle.Screen()
 
@@ -33,7 +33,6 @@ draw.reset()
 
 draw.pensize(2)
 draw.speed(0)
-
 
 
 # design 2- draws a multicolor spiral design 
