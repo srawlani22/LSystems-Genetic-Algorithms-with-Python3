@@ -24,7 +24,7 @@ and when n=3--> A  B  A
 		AB BA AB
 
 and so on...
-we just keep replacing A with AB and B with BA depending upon the nu
+we just keep replacing A with AB and B with BA depending upon the number, this System is also knows as a DOL-system
 
 
 we use string buffer to capture values and append the values of the older string to new string to get a new generated.
@@ -57,3 +57,10 @@ Applications of LSystems:
 3) The procedural designs of cities
 4) Generative Art
 5) Generative Music
+
+
+Initially, LSystems were considered as the mathematical theory of plant development. The main emphasis was always on the plant topology, trying to 
+create new structures of the Plants so that they can capture the cell divisions in the multicellular organisms.
+
+
+We can use the turtle graphics to draw simple and complictaed structures, espically using recursion to draw multiple branches.
