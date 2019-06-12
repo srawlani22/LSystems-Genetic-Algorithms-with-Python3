@@ -26,3 +26,6 @@ def main():
 
 main()
 
+#the nature is not as symmetric as a computer programe that's why you will notice that these designs don't really look realistic even though L-Systems
+# were supposed to create natural symmetrical stuff however this only the beginning of things and stuff gets complicated as we move forward.
+

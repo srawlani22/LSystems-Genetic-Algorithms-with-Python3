@@ -1,7 +1,5 @@
-import turtle
+import turtle 
 
-D=90
-L=10
 
 def iterate(axiom, num=0, initator='F'):
     """
