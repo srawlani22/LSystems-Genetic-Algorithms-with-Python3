@@ -1,0 +1,91 @@
+Date: 06/04/2019
+Sparsh Rawlani
+
+Intro to L-systems
+I referred to a website to learn the introdunction to L-systems. The URL of the website is https://morphocode.com/intro-to-l-systems/
+
+I learned that an LSystem is a parallel string rewriting system. All the LSystems work on a basic set of rules for specifying the symbols in a string. The symbols are 
+rewritten as strings. 
+For example:
+seed: A
+The rules are:
+Rule 1: A=AB
+Rule 2: B=BA
+
+Next, the LSystems by default start with the seed=A and iteratively rewrites that string using the production rules. n i usually defined as the derivation length of the
+string, which is further equal to the number of iterations. 
+
+n=0:A
+n=1:AB(A becomes AB according to Rule #1)
+n=2: ABBA(A becomes AB according to RUle #1, while B becomes BA according to Rulw #2. In result we get ABBA)
+n=3: ABBABAAB
+n=4: ABBABAABBAABABBA
+and so on...
+
+
+So basically each string represents a word. All words from the language of the System. 
+The next is learning the different types of LSystems: deterministic, stochastic, context-free, context-sesitive, parametric, timed-depending on the rules and the way they 
+are applied by the LSystem.
+
+The applications of the LSystems are: 
+1: herbaceous plants
+2: neural networks
+3: the procedural design of cities
+4: generative art
+5: generative music
+
+As we saw that the central system of LSystems is basically rewriting of strings.
+
+The general form of LSystem rule is  [left_context<] symbol [>right_context] [:condition]=replacement [:probability]
+
+Where:
+left_context- An optional string that must precede the symbol for this rule to match.
+
+symbol- The symbol to replcae. Like A is replaced by AB and B is replaced by B BA.
+
+right_context- An optional string that must follow the symbol for this rule to match
+
+condition- An optional expression that must be true for this rule to match.
+
+replacement- The string that will replace the symbol 
+
+probability- The optional chance(between 0 and 1) that this rule will be executed. This wouldn't exactly gonna be 0 or 1, is usually a decimal.
+
+
+TURTLE Commands:
+It is completely possible to manipulate the strings system with the Graphics routine that interprets the strings as commands for drawing "turtke with position (XYZ)" and geading(angle). 
+
+Some examples are:
+F- Move forward a step, drawing a line connecting the previous position to the new position.
+
+f- Move forward without drawing.
+
++ Rotate right 90 degrees
+
+- Rotate left 90 degrees
+
+
+One of the most important things in LSystems are Branches:
+In LSystems we create the branches with square brackets([ and ]). Any turtle commands inside the square brackets are executed differently then the actual string
+commands. 
+
+For example, the commands F [F+] F [F+] [-F]  state that:
+
+1: Go forward
+
+2: Branch off a new turtle and have it turn right and then go forward.
+
+3: Go forward
+
+4: Branch off a new turtle and have it turn the right and the go forward.
+
+5: Branch off a new turtle and have it turn left and then go forward.
+
+After that, I used python3 to create some fancy figures that can be seen after running the code. The file name is saved as turtle_LS.py  
+I have also pushed everything up to github and it can be found easily. Every step is closely doumented in this documentation and it is strongly
+recommended for anyone to go through the documenration in order to understand the concept of LSystems.
+
+ 
+
+
+
