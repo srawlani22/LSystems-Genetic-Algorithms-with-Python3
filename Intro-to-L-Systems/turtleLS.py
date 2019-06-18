@@ -14,6 +14,7 @@ draw.pensize(2)
 draw.speed(3)
 
 screen = turtle.Screen()
+canvas.bgcolor("black")
 
 
 #design 1- draws a star

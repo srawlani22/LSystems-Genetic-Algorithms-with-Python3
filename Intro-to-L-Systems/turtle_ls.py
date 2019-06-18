@@ -27,7 +27,7 @@ def iterate(axiom, num=0, initator='F'):
         result = translate(result, axiom)
     return result
 
-def draw(axiom, d=D, l=L):
+def draw(axiom, d, l):
     """
     Use turtle to draw the L-System
     """

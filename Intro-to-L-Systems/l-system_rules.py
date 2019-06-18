@@ -28,4 +28,7 @@ def createLSystem(numIters,axiom):
     return endString
 
 
-print(createLSystem(5, "A"))
+for i in range(10):
+    print(createLSystem(i, "A"))
+
+
