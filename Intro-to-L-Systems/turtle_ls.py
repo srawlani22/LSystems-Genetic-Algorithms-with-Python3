@@ -75,3 +75,5 @@ if __name__ == '__main__':
     axiom = "F-F+F+FF-F-F+F"
     axiom = iterate(axiom, 3, "F-F-F-F")
     draw(axiom, 90, 2)
+
+    
