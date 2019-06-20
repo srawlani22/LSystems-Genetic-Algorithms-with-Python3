@@ -4,7 +4,6 @@ import turtle
 
 draw = turtle.Turtle
 
-
 def Recursive_Koch(length, depth):
     if depth == 0:
      forward(length)
